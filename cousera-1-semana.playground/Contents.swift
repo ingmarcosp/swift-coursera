@@ -33,3 +33,27 @@ var f = 2
 let z = 3
 
 print("resultad \(a % ++f * z)")
+
+var arreglo = [1, 2, 3, 4]
+
+arreglo.count
+
+arreglo += [5, 6]
+
+arreglo[0]
+
+for i in 0...10 {
+    print(i)
+}
+
+while f < 10 {
+    print(f)
+    f += 1
+}
+
+repeat {
+    print(f)
+    f += 1
+} while f < 20
+
+for i = 0 ; i < 10 ; 
